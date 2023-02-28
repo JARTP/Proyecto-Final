@@ -1,0 +1,109 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  body{
+    background: linear-gradient(to right, #f3e6ff, #c772ff);
+  }
+
+  .resume{
+    width: 800px;
+    background: #f1edf5;
+    margin: 25px auto;
+    display: flex;
+  }
+
+  .left{
+    background: #373438;
+    width: 250px;
+    padding: 0 20px;
+  }
+
+  .right{
+    width: calc(100% - 250px);
+  }
+
+  .left .img_holder{
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .left .img_holder img{
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid #ffffff;
+  }
+
+  .title{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .left .icono{
+    font-size: 15px;
+    color: #8b347d;
+  }
+
+  .left .text{
+    color:#e06388;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .contacto .text{
+    display: flex;
+  }
+
+  .contacto .datos .icono{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+
+  .more {
+    display: none;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: center;
+  }
+
+  a{
+    display: flex;
+    background: #eea0e1;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 15);
+  }
+
+  a i{
+    font-size: 35px;
+  }
+
+  a:hover{
+    box-shadow: inset 4px 4px 6px 1px rgba(0, 0, 0, 2);
+  }
